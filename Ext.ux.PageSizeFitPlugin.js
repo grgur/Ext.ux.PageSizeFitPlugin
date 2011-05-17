@@ -1,3 +1,20 @@
+/*
+Ext.create('Ext.PagingToolbar', {
+    store: store,
+    displayInfo: true,
+    displayMsg: 'Displaying topics {0} - {1} of {2}',
+    emptyMsg: "No topics to display",
+	id: 'pt',
+	plugins: [
+		{
+            ptype: 'pagingfit',
+            testRows: 1,
+            pluginId: 'pagingfit'
+        }
+	]
+})*/
+
+
 Ext.define('Ext.ux.PagingFitPlugin', {
 	extend: 'Ext.AbstractPlugin',
     alias: 'plugin.pagingfit',
